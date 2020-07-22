@@ -1,4 +1,6 @@
 # Treatment-Analyzer-and-Predictor
 
-In order for the algorithm to be functional, you must obtain the TWO MIMIC data sets (the STATES data and the ACTIONS data) as .p (pickle) files and place them in the same folder that you have downloaded the code (python file). 
+This project involved developing a variant of the K-Nearest Neighbor algorithm, which assessed the variances between treatments of patients with similar conditions, as well as a "treatment predictor" that was also based on the K-Nearest Neighbor algorithm, but instead used a dynamic K to improve classifcation accuracy. 
+
+Note that in order for the algorithm to be functional, you must obtain two particular MIMIC data sets as .p (pickle) files and place them in the same folder that you have downloaded the code. 
 
