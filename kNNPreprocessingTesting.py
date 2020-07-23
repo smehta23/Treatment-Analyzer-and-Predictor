@@ -483,20 +483,3 @@ with open("random_selected_testing_timesteps.csv", "r") as f:
 #            break
 
 
-#get the overall action on top of the raw and ID - DONE
-#use integers instead of exact raw amounts so that a mode treatment can be found for max distance and K neighbors -- DONE
-#does timestep matter for feature scaling and PCA; does it need to be factored into those processes -- compare using timestep and not using timestep
-#instead of using all training samples randomly select X for each testing patient -- question is how many samples are needed?
-#Principal Component Analysis (experiment with including timestep in PCA and don't include timestep in PCA) ---- DONE
-#try out different dimension amounts manually (take out _ind parameters) 
-#why K-D tree/approximate nearest neighbors wasn't needed (computational complexity of the sort function was already O(nlogn))
-#make a confusion matrix after all results are compiled in Excel
-#p-test for statistical significance
-#call the Max_ED version the MEDKNN version of KNN -- a proper way of doing the Max_ED way has to be discovered (use algorithm in paper Nishank sent)
-#always set the random seed to 24
-#separate data into groups based on age and sex --> then do the Euclidean distance comparision on labaratory tests
-#try out MinMaxScaler instead of StandardScaler
-#try not using PCA at all
-#did the actual treatment work? how to prove that predicted treatment is better from the algorithm: need mortality data (ask Finale?)
-#finding a solution that is both computationally cost effective and a good predictor
-#taking out the 0,0 treatments
